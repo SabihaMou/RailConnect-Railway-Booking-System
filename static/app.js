@@ -1,0 +1,1 @@
+document.querySelectorAll('input[name=seat]').forEach(x=>x.addEventListener('change',()=>{const label=document.querySelector('#chosenSeat');if(label)label.textContent='Seat '+x.value;}));
